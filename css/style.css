@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-Medium.eot');
+    src: url('../fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaBT-Medium.woff2') format('woff2'),
+    url('../fonts/FuturaBT-Medium.woff') format('woff'),
+    url('../fonts/FuturaBT-Medium.ttf') format('truetype'),
+    url('../fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+header{
+    position: absolute;
+    width: 100%;
+}
+.container{
+    max-width: 1112px;
+    margin: auto
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between
+}
+.logo{
+    margin-left: -54px
+}
+.toplist{
+    list-style: none;
+    display: flex;
+    padding-top: 39px
+}
+header nav ul li{
+    margin: 0 10px
+}
+header nav ul li a{
+    text-decoration: none
+}
+header nav ul li a p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+header ul li p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+header ul li a p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+header ul li{
+    margin: 0 10px
+}
+header ul li:last-of-type{
+    margin-right: 35px;
+}
+header ul li a{
+    text-decoration: none
+}
+.main_banner{
+    background-image: url('../images/back.png');
+    background-size: cover;
+    padding: 170px 0 34px;
+}
+h1{
+    font-family: "Futura Md BT", sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #FFFFFF
+}
+
+.main_banner article{
+    max-width: 512px;
+    background:rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin: 30px 0 98px;
+    padding: 36px 33px;
+    display: flex
+}
+
+.main_banner article img{
+    margin-right: 33px
+}
+
+.main_banner article p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000
+}
+
+.main_banner a{
+    text-decoration: none;
+    max-width: 255px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 70px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px
+}
+.main_banner a p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+.about_us_banner{
+    background-color: #FFFFFF;
+    padding-top: 15px
+}
+.about_us_banner img{
+    margin-bottom: 160px
+}
+.container_about_us{
+    max-width: 1275px;
+    margin: auto
+}
+.about_us_banner article{
+    max-width: 385px;
+}
+.about_us_banner h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    margin: 21px 0 60px
+}
+.about_us_banner article p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000
+}
+.about_us_banner article p:first-of-type{
+    margin-bottom: 40px;
+}
+.about_us_banner article p span{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000
+}
+.photo_bathroom{
+    max-width: 770px
+}
+
+.photo_bathroom img{
+    width: 100%;
+    display: block
+}
+.cat_banner{
+    padding-top: 30px;
+}
+.cat_banner h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    margin-top: 252px;
+    margin-left: 260px;
+    margin-bottom: 52px;
+}
+.container_cat_banner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1112px;
+    margin: auto
+}
+.container_cat_banner div{
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+.container_cat_banner div:last-of-type{
+    margin-right: 0;
+}
+.container_cat_banner p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-top: 20px;
+}
+.container_cat_banner_button{
+    display: flex;
+    justify-content: center;
+    max-width: 1112px;
+    margin: auto
+}
+.container_cat_banner_button a{
+    text-decoration: none;
+    max-width: 255px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 70px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px
+}
+.container_cat_banner_button a p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+.video_feedback{
+    background-color: rgba(76, 96, 113, 0.9);
+    background-image: url("../images/backvid.svg");
+    padding-top: 60px;
+}
+.video_feedback h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-left: 260px;
+    margin-bottom: 87px;
+}
+.container_video{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1112px;
+    margin: auto
+}
+.vid{
+    max-width: 255px;
+    margin-right: 30px;
+    border-radius: 15px;
+    position: relative;
+}
+.vid img{
+    border-radius: 15px;
+}
+.play{
+    width: 25%;
+    position: absolute;
+    top: 90px;
+    right: 90px;
+    transition: 0.6s;
+}
+.play:hover{
+    transform: scale(1.1);
+}
+.vid h4{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.vid p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 60;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 95px;
+}
+
+.form_banner{
+    background-color: #FFFFFF;
+    padding-top: 21px
+}
+.container_form{
+    max-width: 1112px;
+    margin: auto
+}
+.form_banner img{
+    margin-bottom: 200px
+}
+.form_banner h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000
+}
+.form_banner div{
+    min-width: 392px
+}
+
+.form_banner div label{
+    display: block
+}
+
+.form_banner div input{
+    width: 100%;
+    height: 25px;
+    margin: 30px 0 0;
+    border: none;
+    border-bottom: solid 1px black
+}
+
+.form_comment{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.form_banner button{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+    margin-top: 60px;
+}
+
+.photo_design{
+    max-width: 616px
+}
+
+.photo_design img{
+    width: 100%;
+    display: block
+}
+
+.w-100{
+    width: 100%;
+}
