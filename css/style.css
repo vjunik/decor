@@ -121,21 +121,17 @@ h1{
     line-height: 150%;
     color: #000000
 }
-
-.main_banner a{
-    text-decoration: none;
-    max-width: 255px;
+.order{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 255px;
-    height: 70px;
+}
+.order a{
+    text-decoration: none;
+    padding: 20px 48px;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px
 }
-.main_banner a p{
+.order p{
     font-family: 'Roboto-Regular', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -148,7 +144,9 @@ h1{
     padding-top: 15px
 }
 .about_us_banner img{
-    margin-bottom: 160px
+    margin-bottom: 160px;
+    width: 100%;
+    display: block;
 }
 .container_about_us{
     max-width: 1275px;
@@ -195,26 +193,39 @@ h1{
 }
 .cat_banner{
     padding-top: 30px;
+    padding-bottom: 150px;
 }
-.cat_banner h3{
+.topfacture{
+    width: 100%;
+    display: block;
+    margin-bottom: 150px;
+}
+.container_cat{
+    max-width: 920px;
+    margin: auto;
+}
+.cat_banner h2{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 24px;
     line-height: 130%;
     color: #373737;
-    margin-top: 252px;
-    margin-left: 95px;
     margin-bottom: 52px;
 }
-.container_cat_banner{
+.container_cat_banner {
     display: flex;
     justify-content: space-between;
     max-width: 1112px;
-    margin: auto
+    margin: auto;
 }
 .element{
     margin-bottom: 40px;
+}
+.element img{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
 }
 .element p{
     font-family: 'Roboto-Regular', sans-serif;
@@ -223,25 +234,15 @@ h1{
     font-size: 16px;
     line-height: 150%;
     color: #373737;
-    margin-top: 20px;
 }
 .container_cat_banner_button{
     display: flex;
     justify-content: center;
-    max-width: 1112px;
-    margin: auto
 }
 .container_cat_banner_button a{
     text-decoration: none;
-    max-width: 255px;
-    display: flex;
+    padding: 20px 46px;
     margin-top: 30px;
-    margin-bottom: 150px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 255px;
-    height: 70px;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px
@@ -258,36 +259,42 @@ h1{
     background-color: rgba(76, 96, 113, 0.9);
     background-image: url("../images/backvid.svg");
     padding-top: 60px;
-    padding-bottom: 95px;
+    padding-bottom: 65px;
 }
-.video_feedback h3{
+.feedh2{
+    max-width: 920px;
+    margin: auto;
+}
+.video_feedback h2{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
-    margin-left: 260px;
     margin-bottom: 87px;
 }
 .container_video{
     display: flex;
     justify-content: space-between;
     max-width: 1112px;
-    margin: auto
+    margin: auto;
 }
 .vid{
     max-width: 255px;
     position: relative;
+    margin-bottom: 30px;
 }
 .vid img{
     border-radius: 15px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
 }
 .play{
-    width: 50%;
     position: absolute;
-    top: 45px;
-    right: 45px;
+    top: 78px;
+    left: 96px;
     transition: 0.6s;
 }
 .play:hover{
@@ -300,7 +307,7 @@ h1{
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .vid p{
     font-family: 'Roboto-Regular', sans-serif;
@@ -309,7 +316,6 @@ h1{
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-    margin-top: 10px;
 }
 
 .form_banner{
@@ -361,10 +367,6 @@ h1{
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 20px 50px;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05), 8px 8px 109px rgba(0, 0, 0, 0.05);
@@ -384,4 +386,5 @@ h1{
 
 .w-100{
     width: 100%;
+    display: block;
 }
