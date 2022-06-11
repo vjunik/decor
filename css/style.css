@@ -33,7 +33,7 @@ header{
     width: 100%;
 }
 .container{
-    max-width: 1112px;
+    max-width: 1110px;
     margin: auto
 }
 .d-flex{
@@ -54,23 +54,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none
 }
-header nav ul li a p{
-    font-family: 'Roboto-Regular', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    color: #FFFFFF
-}
-header ul li p{
-    font-family: 'Roboto-Regular', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    color: #FFFFFF
-}
-header ul li a p{
+header p{
     font-family: 'Roboto-Regular', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -90,22 +74,25 @@ header ul li a{
 .main_banner{
     background-image: url('../images/back.png');
     background-size: cover;
-    padding: 170px 0 34px;
+    padding-top: 170px;
+    padding-bottom: 34px;
 }
 h1{
     font-family: "Futura Md BT", sans-serif;
     font-size: 56px;
     font-weight: 500;
     line-height: 130%;
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .main_banner article{
     max-width: 512px;
     background:rgba(255, 255, 255, 0.9);
     border-radius: 20px;
-    margin: 30px 0 98px;
-    padding: 36px 33px;
+    margin-right: 500px;
+    margin-bottom: 98px;
+    padding: 37px 33px 34px;
     display: flex
 }
 
@@ -141,44 +128,48 @@ h1{
 }
 .about_us_banner{
     background-color: #FFFFFF;
-    padding-top: 15px
+    padding-top: 15px;
+    padding-bottom: 160px;
 }
-.about_us_banner img{
+.top_about{
     margin-bottom: 160px;
+}
+.top_about img{
     width: 100%;
     display: block;
 }
 .container_about_us{
-    max-width: 1275px;
-    margin: auto
+    display: flex;
+    justify-content: flex-end;
 }
-.about_us_banner article{
+.container_about_us article{
     max-width: 385px;
+    margin-right: 120px;
 }
-.about_us_banner h3{
+.container_about_us article h3{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     line-height: 130%;
     color: #000000;
-    margin: 21px 0 60px
+    margin: 21px 0 60px;
 }
-.about_us_banner article p{
+.container_about_us article p{
     font-family: 'Roboto-Regular', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 60;
     font-size: 20px;
     line-height: 150%;
     color: #000000
 }
-.about_us_banner article p:first-of-type{
+.container_about_us article p:first-of-type{
     margin-bottom: 40px;
 }
-.about_us_banner article p span{
+.container_about_us article p span{
     font-family: 'Roboto-Regular', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 549;
     font-size: 20px;
     line-height: 150%;
     color: #000000
@@ -186,19 +177,72 @@ h1{
 .photo_bathroom{
     max-width: 770px
 }
-
 .photo_bathroom img{
     width: 100%;
     display: block
+}
+.wy_we{
+    background-color: rgba(76, 96, 113, 0.9);
+    background-image: url("../images/wy_we.svg");
+    padding: 60px 0 60px;
+}
+.wyh2{
+    max-width: 920px;
+    margin: auto;
+}
+.wy_we h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 67px;
+}
+.container_wy{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
+}
+.wy{
+    max-width: 255px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 50px 30px;
+}
+.wy img{
+    width: 26%;
+    display: block;
+    margin: 0 66px 50px 67px;
+}
+.wy h4{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 10px;
+}
+.wy p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 60;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
 }
 .cat_banner{
     padding-top: 30px;
     padding-bottom: 150px;
 }
 .topfacture{
+    margin-bottom: 150px;
+}
+.topfacture img{
     width: 100%;
     display: block;
-    margin-bottom: 150px;
 }
 .container_cat{
     max-width: 920px;
@@ -317,7 +361,6 @@ h1{
     line-height: 150%;
     color: #FFFFFF;
 }
-
 .form_banner{
     background-color: #FFFFFF;
     padding-top: 21px
