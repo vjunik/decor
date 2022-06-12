@@ -127,7 +127,6 @@ h1{
     color: #FFFFFF
 }
 .about_us_banner{
-    background-color: #FFFFFF;
     padding-top: 15px;
     padding-bottom: 160px;
 }
@@ -135,8 +134,8 @@ h1{
     margin-bottom: 160px;
 }
 .top_about img{
-    width: 100%;
     display: block;
+    width: 100%;
 }
 .container_about_us{
     display: flex;
@@ -184,7 +183,8 @@ h1{
 .wy_we{
     background-color: rgba(76, 96, 113, 0.9);
     background-image: url("../images/wy_we.svg");
-    padding: 60px 0 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .wyh2{
     max-width: 920px;
@@ -232,6 +232,80 @@ h1{
     font-size: 16px;
     line-height: 150%;
     color: #373737;
+}
+.portfolio{
+    padding-bottom: 177px;
+}
+.topport{
+    margin-bottom: 157px;
+}
+.topport img{
+    display: block;
+    width: 100%;
+}
+.porth2{
+    max-width: 920px;
+    margin: auto;
+}
+.portfolio h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    margin-bottom: 50px;
+}
+.container_port{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
+}
+.port_el{
+    max-width: 540px;
+    margin-bottom: 100px;
+}
+.port_el img{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.port_el h4{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 10px;
+}
+.port_el p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 60;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+.container_port_button{
+    display: flex;
+    justify-content: center;
+}
+.container_port_button a{
+    text-decoration: none;
+    padding: 20px 67px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px
+}
+.container_port_button a p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF
 }
 .cat_banner{
     padding-top: 30px;
