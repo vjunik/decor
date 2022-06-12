@@ -31,6 +31,7 @@
 header{
     position: absolute;
     width: 100%;
+    padding-top: 39px
 }
 .container{
     max-width: 1110px;
@@ -41,12 +42,18 @@ header{
     justify-content: space-between
 }
 .logo{
-    margin-left: -54px
+    position: relative;
+    margin-right: 210px;
+}
+.logo img{
+    position: absolute;
+    top: -35px;
+    left: -50px;
 }
 .toplist{
     list-style: none;
     display: flex;
-    padding-top: 39px
+
 }
 header nav ul li{
     margin: 0 10px
@@ -307,6 +314,64 @@ h1{
     line-height: 150%;
     color: #FFFFFF
 }
+.quest_banner{
+    background-color: rgba(76, 96, 113, 0.9);
+    background-image: url("../images/quest_backgr.svg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.quest_header{
+    max-width: 1190px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 30px 370px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.quest_banner h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+.quest_main{
+    max-width: 1188px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.quest_form{
+    max-width: 1128px;
+    border-radius: 30px;
+    background-color: #4C6071;
+    padding: 30px 50px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+.quest_form label{
+    display: block;
+    padding: 20px 138px 20px 20px;
+    min-width: 408px;
+    background-color: #FFFFFF;
+}
+.quest_img{
+    max-width: 610px;
+}
+.quest_img img{
+    width: 100%;
+    display: block;
+}
+
+
+
 .cat_banner{
     padding-top: 30px;
     padding-bottom: 150px;
@@ -449,7 +514,7 @@ h1{
 .form_banner h3{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     line-height: 130%;
     color: #000000
@@ -470,11 +535,13 @@ h1{
     border-bottom: solid 1px black
 }
 
-.form_comment{
+.form_banner input{
     font-family: 'Roboto-Regular', sans-serif;
-    font-weight: 300;
+    font-style: normal;
+    font-weight: 100;
     font-size: 16px;
     line-height: 150%;
+    color: #000000;
 }
 
 .form_banner button{
