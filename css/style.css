@@ -39,7 +39,7 @@ header{
 }
 .d-flex{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .logo{
     position: relative;
@@ -145,8 +145,10 @@ h1{
     width: 100%;
 }
 .container_about_us{
+    max-width: 1440px;
     display: flex;
     justify-content: flex-end;
+    margin: auto;
 }
 .container_about_us article{
     max-width: 385px;
@@ -502,40 +504,40 @@ h1{
 }
 .form_banner{
     background-color: #FFFFFF;
-    padding-top: 21px
+    padding-top: 21px;
+    padding-bottom: 200px;
 }
-.container_form{
-    max-width: 1112px;
-    margin: auto
-}
-.form_banner img{
+.top_form{
     margin-bottom: 200px
 }
-.form_banner h3{
+.form_banner img{
+    width: 100%;
+    display: block;
+}
+.container_form{
+     display: flex;
+     justify-content: space-between;
+     max-width: 1112px;
+     margin: auto
+ }
+.container_form form{
+    width: 392px;
+}
+.form_banner h2{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 130%;
-    color: #000000
+    color: #000000;
+    margin-bottom: 30px;
 }
-.form_banner div{
-    min-width: 392px
-}
-
-.form_banner div label{
-    display: block
-}
-
-.form_banner div input{
+.form_banner input{
     width: 100%;
     height: 25px;
-    margin: 30px 0 0;
+    margin-bottom: 40px;
     border: none;
-    border-bottom: solid 1px black
-}
-
-.form_banner input{
+    border-bottom: solid 1px black;
     font-family: 'Roboto-Regular', sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -543,11 +545,10 @@ h1{
     line-height: 150%;
     color: #000000;
 }
-
 .form_banner button{
     font-family: 'Roboto-Regular', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
@@ -556,19 +557,12 @@ h1{
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05), 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     border: none;
-    margin-top: 60px;
+    margin-top: 20px;
 }
-
 .photo_design{
     max-width: 616px
 }
-
 .photo_design img{
     width: 100%;
     display: block
-}
-
-.w-100{
-    width: 100%;
-    display: block;
 }
