@@ -126,26 +126,30 @@
     <div class="quest_main">
         <h2>Какая услуга Вас интересует?</h2>
         <h2>Вопрос 1 из 5</h2>
-        <div class="quest_form">
-            <form method="post" action="#">
-                <input type="radio" name="radio" id="radio1">
-                <label for="radio1">Декоративная штукатурка</label>
-                <input type="radio" name="radio" id="radio2">
-                <label for="radio2">Покраска</label>
-                <input type="radio" name="radio" id="radio3">
-                <label for="radio3">Декоративная штукатурка
+        <form method="post" action="#" name="quest">
+            <div class="quest_form">
+                <div class="select_method">
+                    <label for="method1">
+                        <input type="radio" name="method" id="method1">
+                    Декоративная штукатурка</label>
+                    <label for="method2"><input type="radio" name="method" id="method2">
+                    Покраска</label>
+                    <label for="method3"><input type="radio" name="method" id="method3">
+                    Декоративная штукатурка
                     + покраска</label>
-            </form>
-            <div class="quest_form_right">
-                <div class="quest_img">
-                    <img src="images/quest1.png" alt="quest1">
                 </div>
-                <button></button>
-                <button></button>
+                <div class="quest_form_right">
+                    <div class="quest_img">
+                        <img src="images/quest1.png" alt="quest1">
+                    </div>
+                    <div class="quest_buttons">
+                        <button type="submit">Назад</button>
+                        <button type="submit">Далее</button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
-
 </section>
 <section class="cat_banner">
     <div class="topfacture">
@@ -232,7 +236,7 @@
         <img src="images/top2.svg" alt="top2">
     </div>
     <div class="container_form">
-        <form method="post" action="#">
+        <form method="post" action="#" name="order">
             <h2>Давайте обсудим ваш проект</h2>
                 <label for="first_name"></label>
                 <input type="text" name="first_name" placeholder="Имя" id="first_name">
@@ -240,9 +244,7 @@
                 <input type="tel" name="phone_number" placeholder="Номер телефона" id="phone_number">
                 <label for="comment"></label>
                 <input type="text" name="comment" placeholder="Коментарий" id="comment">
-            <button type="submit">
-                Заказать проект
-            </button>
+            <button type="submit">Заказать проект</button>
         </form>
         <div class="photo_design">
         <img src="images/project.jpg" alt="project">
