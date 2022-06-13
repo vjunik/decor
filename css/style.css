@@ -364,7 +364,7 @@ h1{
 .select_method{
     width: 408px;
 }
-.quest_form input{
+.select_method input{
     margin-right: 30px;
     position: absolute;
     right: -10px;
@@ -402,7 +402,20 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-.quest_form_right button {
+.quest_form_right .button_back{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 20px 116px;
+    background: #8F8F8F;
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+}
+.quest_form_right .button_forward{
     font-family: 'Roboto-Regular', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -448,6 +461,7 @@ h1{
     margin: auto;
 }
 .element{
+    max-width: 255px;
     margin-bottom: 40px;
 }
 .element img{
@@ -553,10 +567,6 @@ h1{
 .top_form{
     margin-bottom: 200px
 }
-.form_banner img{
-    width: 100%;
-    display: block;
-}
 .container_form{
      display: flex;
      justify-content: space-between;
@@ -605,7 +615,61 @@ h1{
 .photo_design{
     max-width: 616px
 }
-.photo_design img{
+.form_banner img{
     width: 100%;
-    display: block
+    display: block;
+}
+footer{
+    background-color: rgba(76, 96, 113, 0.9);
+    background-image: url("../images/footer_back.svg");
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer_banner{
+    max-width: 1107px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+footer h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+footer p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.soc_net{
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+.soc_net a{
+    transition: 0.6s;
+}
+.soc_net a:hover {
+    transform: scale(1.1);
+}
+.gen_contacts{
+    text-align: end;
+}
+.map{
+    min-width: 540px;
+    height: 146px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.map iframe{
+    border:0;
 }
