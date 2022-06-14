@@ -370,6 +370,9 @@ h1{
     right: -10px;
     top: 30px;
 }
+.select_method .last_method{
+    top: 44px;
+}
 .quest_form label{
     position: relative;
     display: block;
