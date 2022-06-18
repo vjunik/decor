@@ -562,6 +562,36 @@ h1{
     line-height: 150%;
     color: #FFFFFF;
 }
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+
+    font-weight: 510;
+    content: "\f060";
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    left: 925px;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 510;
+    content: "\f061";
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    right: 125px;
+}
+.owl-nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: -110px;
+}
 .form_banner{
     background-color: #FFFFFF;
     padding-top: 21px;
