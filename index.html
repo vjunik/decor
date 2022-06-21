@@ -7,10 +7,11 @@
     <title>Decor color expert</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
@@ -125,36 +126,65 @@
 </section>
 <section class="quest_banner">
     <div class="quest_header">
-        <h2>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</h2>
+        <h2>Рассчитайте ориентировочную стоимость выполнения Ваших работ<br> ответив всего на 5 вопросов</h2>
     </div>
-    <div class="quest_main">
-        <h2>Какая услуга Вас интересует?</h2>
-        <h2>Вопрос 1 из 5</h2>
-        <form method="post" action="#" name="quest">
-            <div class="quest_form">
-                <div class="select_method">
-                    <label for="method1">
-                        <input type="radio" name="method" id="method1">
-                    Декоративная штукатурка</label>
-                    <label for="method2">
-                        <input type="radio" name="method" id="method2">
-                    Покраска</label>
-                    <label for="method3">
-                        <input type="radio" name="method" id="method3" class="last_method">
-                    Декоративная штукатурка
-                    + покраска</label>
-                </div>
-                <div class="quest_form_right">
-                    <div class="quest_img">
-                        <img src="images/quest1.png" alt="quest1">
+    <div class="quest_main" id="accordion">
+        <h3>
+            <span>Какая услуга Вас интересует?</span>
+            <span>Вопрос 1 из 5</span>
+        </h3>
+        <div>
+            <form method="post" action="#" name="quest">
+                <div class="quest_form">
+                    <div class="select_method">
+                        <label for="method1">
+                            <input type="radio" name="method" id="method1">
+                            Декоративная штукатурка</label>
+                        <label for="method2">
+                            <input type="radio" name="method" id="method2">
+                            Покраска</label>
+                        <label for="method3">
+                            <input type="radio" name="method" id="method3" class="last_method">
+                            Декоративная штукатурка<br>
+                            + покраска</label>
                     </div>
-                    <div class="quest_buttons">
-                        <button type="submit" class="button_back">Назад</button>
-                        <button type="submit" class="button_forward">Далее</button>
+                    <div class="quest_form_right">
+                        <div class="quest_img">
+                            <img src="images/quest1.png" alt="quest1">
+                        </div>
+                        <div class="quest_buttons">
+                            <button type="submit" class="button_back">Назад</button>
+                            <button type="submit" class="button_forward">Далее</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
+        <h3>
+            <span>Где будут выполняться работы?</span>
+            <span>Вопрос 2 из 5</span>
+        </h3>
+        <div>
+            <form method="post" action="#" name="quest">
+                <div class="quest_form">
+                    <div class="select_method">
+                        <label for="method4">
+                            <input type="radio" name="method" id="method4">В помещении</label>
+                        <label for="method5">
+                            <input type="radio" name="method" id="method5">Фасад</label>
+                    </div>
+                    <div class="quest_form_right">
+                        <div class="quest_img">
+                            <img src="images/quest2.png" alt="quest2">
+                        </div>
+                        <div class="quest_buttons">
+                            <button type="submit" class="button_forward">Назад</button>
+                            <button type="submit" class="button_forward">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </section>
 <section class="cat_banner">
@@ -307,8 +337,9 @@
     </div>
 </footer>
 <script src="https://kit.fontawesome.com/d79e5ead60.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
