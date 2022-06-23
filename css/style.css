@@ -320,7 +320,7 @@ h1{
     background-color: rgba(76, 96, 113, 0.9);
     background-image: url("../images/quest_backgr.svg");
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .quest_header{
     max-width: 1190px;
@@ -353,9 +353,10 @@ h1{
     max-width: 1188px;
     border-radius: 20px;
     background-color: #FFFFFF;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .ui-accordion .ui-accordion-header.ui-state-active{
     border-radius: 20px 20px 0 0;
@@ -371,15 +372,37 @@ h1{
     max-width: 1188px;
     border-radius: 0 0 20px 20px;
     background-color: #FFFFFF;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .quest_form{
     max-width: 1128px;
     border-radius: 30px;
     background-color: #4C6071;
     padding: 30px 50px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.thanks{
+    max-width: 1188px;
+    background-image: url("../images/quest7.png");
+    background-size: 1128px 370px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.thanks h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 39px;
+    font-weight: 900;
+    line-height: 130%;
+    margin-top: 70px;
+}
+.messengers{
+    max-width: 408px;
     display: flex;
     justify-content: space-between;
 }
@@ -393,9 +416,65 @@ h1{
     top: 30px;
     cursor: pointer;
 }
+.select_method .placeholder_quest{
+    position: absolute;
+    right: 75px;
+    top: 20px;
+    cursor: pointer;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    border: none;
+    border-bottom: solid 1px black;
+    width: 284px;
+}
+.select_method .placeholder_quest_n{
+    position: absolute;
+    right: -9px;
+    top: 21px;
+    cursor: pointer;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    border: none;
+    border-bottom: solid 1px black;
+    width: 368px;
+}
+.select_method .placeholder_quest_e{
+    position: absolute;
+    right: 60px;
+    top: 22px;
+    cursor: pointer;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    border: none;
+    border-bottom: solid 1px black;
+    width: 265px;
+}
+.select_method .placeholder_label:last-of-type:before{
+    content: "";
+    background-image: url("../images/email.svg");
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 15px;
+}
 .select_method .last_method{
     top: 44px;
     cursor: pointer;
+    color: black;
 }
 .quest_form label{
     position: relative;
@@ -412,6 +491,45 @@ h1{
     line-height: 150%;
     color: #000000;
     cursor: pointer;
+}
+.messengers label{
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    min-width: 194px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    cursor: pointer;
+}
+.messengers label:before{
+    content: "";
+    background-image: url("../images/telbl.svg");
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+.messengers label:last-of-type:before{
+    content: "";
+    background-image: url("../images/vibbl.svg");
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+.quest_form .placeholder_label{
+    color: #FFFFFF;
 }
 .quest_img{
     max-width: 610px;
@@ -616,6 +734,31 @@ h1{
     display: flex;
     justify-content: space-between;
     top: -110px;
+}
+.owl-carousel.owl-carousel_1 .owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 510;
+    content: "\f060";
+    font-size: 20px;
+    color: #373737;
+    position: relative;
+    left: 925px;
+}
+.owl-carousel.owl-carousel_1 .owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 510;
+    content: "\f061";
+    font-size: 20px;
+    color: #373737;
+    position: relative;
+    right: 125px;
+}
+.owl-carousel.owl-carousel_1 .owl-nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: -70px;
 }
 .form_banner{
     background-color: #FFFFFF;
